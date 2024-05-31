@@ -44,22 +44,22 @@ const App = () => {
     };
   }, []);
 
-  if (showMobileWarning) {
-    return (
-      <div className="mobile-warning-container">
-        <Lottie
-          options={{
-            loop: true,
-            autoplay: true,
-            animationData: loadingAnimations[loadingAnimationIndex],
-          }}
-          height={400}
-          width={400}
-        />
-        <p>Heh, The creator decided to be petty and the application can only be used in a Mobile Device.</p>
-      </div>
-    );
-  }
+  // if (showMobileWarning) {
+  //   return (
+  //     <div className="mobile-warning-container">
+  //       <Lottie
+  //         options={{
+  //           loop: true,
+  //           autoplay: true,
+  //           animationData: loadingAnimations[loadingAnimationIndex],
+  //         }}
+  //         height={400}
+  //         width={400}
+  //       />
+  //       <p>Heh, The creator decided to be petty and the application can only be used in a Mobile Device.</p>
+  //     </div>
+  //   );
+  // }
 
   return (
     <Router>
