@@ -4,14 +4,14 @@ import { getDatabase } from 'firebase/database';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDJpHvEXNYKtMRxn5BPhlmlfjWKw-AhlgM",
-  authDomain: "realtimechat-ish.firebaseapp.com",
-  databaseURL: "https://realtimechat-ish-default-rtdb.firebaseio.com",
-  projectId: "realtimechat-ish",
-  storageBucket: "realtimechat-ish.appspot.com",
-  messagingSenderId: "253636765697",
-  appId: "1:253636765697:web:ae102f889fc2d61def7800",
-  measurementId: "G-G2HJ8DC3BF"
+  apiKey: "AIzaSyCI6x7mYuB7JPaXaqgIhCLj3mNCzPElOXY",
+  authDomain: "kcauschoolproject.firebaseapp.com",
+  databaseURL: "https://kcauschoolproject-default-rtdb.firebaseio.com",
+  projectId: "kcauschoolproject",
+  storageBucket: "kcauschoolproject.appspot.com",
+  messagingSenderId: "312803926607",
+  appId: "1:312803926607:web:eca9db45f75dca2937803a",
+  measurementId: "G-JY32HRH8BX"
 };
 
 // Initialize Firebase
