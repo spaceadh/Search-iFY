@@ -133,10 +133,10 @@ const PromptPage = () => {
     if (file.type.startsWith('image/')) {
       setUploading(true);
 
-      // toast.info('Uploading image. Please wait...', {
-      //   position: toast.POSITION.TOP_CENTER,
-      //   autoClose: 5000, // Close the toast after 5 seconds
-      // });
+      toast.info('Uploading image. Please wait...', {
+        position: toast.POSITION.TOP_CENTER,
+        autoClose: 2000, // Close the toast after 2 seconds
+      });
   
       try {
         console.log("Handling image upload...");
@@ -178,10 +178,10 @@ const PromptPage = () => {
     // Set isProcessing to true to disable the button and show loader
     setIsProcessing(true);
 
-    // toast.info('Awaking Bella...', {
-    //   position: toast.POSITION.TOP_CENTER,
-    //   autoClose: 5000, // Close the toast after 5 seconds
-    // });
+    toast.info('Awaking Searchi-Fy...', {
+      position: toast.POSITION.TOP_CENTER,
+      autoClose: 5000, // Close the toast after 5 seconds
+    });
     
     let responseData;
     let formattedResponse;
